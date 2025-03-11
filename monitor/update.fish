@@ -13,3 +13,5 @@ cat $scheme_path | while read line
 end
 
 killall -USR2 btop 2> /dev/null
+
+exit 0
