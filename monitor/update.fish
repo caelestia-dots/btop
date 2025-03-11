@@ -4,6 +4,7 @@ set -q XDG_STATE_HOME && set -l state $XDG_STATE_HOME || set -l state $HOME/.loc
 set -l scheme_path $state/caelestia/scheme/current.txt
 set -l src (dirname (status filename))/..
 
+mkdir -p $src/themes
 cp $src/template.theme $src/themes/caelestia.theme
 
 cat $scheme_path | while read line
