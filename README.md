@@ -1,5 +1,7 @@
 # caelestia-btop
 
+## THIS REPO IS ARCHIVED IN FAVOUR OF https://github.com/caelestia-dots/caelestia
+
 ![showcase](https://github.com/caelestia-dots/readme/blob/main/btop/showcase.gif)
 
 btop theme integration for my caelestia dotfiles.
